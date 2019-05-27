@@ -1,7 +1,6 @@
 {
   "name": "task-5",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
@@ -10,9 +9,15 @@
   "author": "Andrey Kurochkin",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.7.0"
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa-routes": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "pg": "^7.11.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
-  }
+  },
+  "description": ""
 }
