@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Task_5</title>
 </head>
 <body>
-    <h1>Hello!</h1>
+    <div id = "app">
+        <nav>
+            <router-link to="/">Главная стратница</router-link>
+            <router-link to="/logon">Вход</router-link>
+            <router-link to="/registr">Регистрация</router-link>
+            <router-link to="/db">Список пользователей</router-link>
+        </nav>    
+        <router-view></router-view>
+    </div>
+
+    
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
